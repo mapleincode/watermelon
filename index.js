@@ -1,10 +1,18 @@
 /**
  * Created by maplex on 2018/3/29.
  */
-const Doc = require('./lib/Doc');
-const H1
+const Title = require('./lib/Title');
+const Componse = require('./lib/Componse');
+const H1 = require('./lib/Componse/H1');
+const Bold = require('./lib/Componse/Bold');
+const Span = require('./lib/Componse/Span');
+const Paragraph = require('./lib/Componse/Paragraph');
 
 module.exports = {
-    Doc,
-    H1
+    Title,
+    Componse,
+    H1,
+    Bold,
+    Span,
+    Paragraph
 };
