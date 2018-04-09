@@ -1,6 +1,6 @@
 {
   "name": "wm-md",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "代码生成 markdown 文件",
   "main": "index.js",
   "scripts": {
