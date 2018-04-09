@@ -1,5 +1,5 @@
 const should = require('should');
-const { Table } = require('../index');
+const { Table, Bold } = require('../index');
 
 describe('Table', function() {
     describe('#toString()', function() {
@@ -54,6 +54,17 @@ describe('Table', function() {
                 const config = ['c', 'b', 'a'];
                 const table = new Table(list, config);
                 table.toString().should.equal('| c | b | a | \n| --- | --- | --- | \n| 3 | 2 | 1 | \n|  | 5 | 4 | \n\n');
+            });
+        });
+
+        describe('suppost inline', function() {
+            it('should equal table', function() {
+                const list = [
+                    { a: new Bold(1), b: 2, c: 3 },
+                    { a: 4, b: 5, d: 6 }
+                ]
+                const table = new Table(list);
+                table.toString().should.equal('| a | b | c | \n| --- | --- | --- | \n| **1** | 2 | 3 | \n| 4 | 5 |  | \n\n');
             });
         });
     });
