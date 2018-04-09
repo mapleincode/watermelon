@@ -39,5 +39,6 @@ module.exports = {
     Image,
     UnorderedList,
     OrderedList,
-    Table
+    Table,
+    P: Paragraph
 };
