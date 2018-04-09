@@ -18,7 +18,7 @@ const Link = require('./lib/Componse/Link');
 const Image = require('./lib/Componse/Image');
 const UnorderedList = require('./lib/Componse/UnorderedList');
 const OrderedList = require('./lib/Componse/OrderedList');
-// const Blockquotes = require('./lib/Componse/Blockquotes');
+const Blockquotes = require('./lib/Componse/Blockquotes');
 const Table = require('./lib/Componse/Table');
 
 module.exports = {
@@ -39,6 +39,7 @@ module.exports = {
     Image,
     UnorderedList,
     OrderedList,
+    Blockquotes,
     Table,
     P: Paragraph
 };
