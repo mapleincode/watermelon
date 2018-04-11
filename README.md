@@ -1,4 +1,6 @@
 markdown code generate.
+---
+[![Build Status](https://travis-ci.org/mapleincode/watermelon.svg?branch=master)](https://travis-ci.org/mapleincode/watermelon)
 
 ## Install
 
