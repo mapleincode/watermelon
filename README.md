@@ -1,6 +1,6 @@
 markdown code generate.
 ---
-[![Build Status](https://travis-ci.org/mapleincode/watermelon.svg?branch=master)](https://travis-ci.org/mapleincode/watermelon)[![](https://coveralls.io/repos/github/mapleincode/watermelon/badge.svg?branch=master)](https://coveralls.io/github/mapleincode/watermelon)
+[![Build Status](https://travis-ci.org/mapleincode/watermelon.svg?branch=master)](https://travis-ci.org/mapleincode/watermelon)[![Coverage Status](https://coveralls.io/repos/github/mapleincode/watermelon/badge.svg?branch=master)](https://coveralls.io/github/mapleincode/watermelon?branch=master)
 ## Install
 
 ```sh
