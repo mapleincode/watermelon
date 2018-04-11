@@ -6,3 +6,5 @@ node_js:
 install: npm install
 
 sudo: false
+
+after_script: npm run cov
