@@ -114,7 +114,7 @@ link1.toString(); // [Google](http://www.google.com)
 
 // without name
 const link2 = new Link(url);
-link1.toString(); // [](http://www.google.com)
+link1.toString(); // [http://www.google.com](http://www.google.com)
 ```
 
 * OrderedList
