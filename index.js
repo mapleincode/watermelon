@@ -20,6 +20,7 @@ const UnorderedList = require('./lib/Componse/UnorderedList');
 const OrderedList = require('./lib/Componse/OrderedList');
 const Blockquotes = require('./lib/Componse/Blockquotes');
 const Table = require('./lib/Componse/Table');
+const SplitLine = require('./lib/Componse/SplitLine');
 
 module.exports = {
     Title,
@@ -41,5 +42,6 @@ module.exports = {
     OrderedList,
     Blockquotes,
     Table,
-    P: Paragraph
+    P: Paragraph,
+    SplitLine
 };
